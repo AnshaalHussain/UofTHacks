@@ -80,7 +80,7 @@
 // }
 
 // export default GoogleApiWrapper({
-//   apiKey: "AIzaSyCNkbD1fp4V1q4p1iSUSuoPkOMrqB6JRcg",
+//   apiKey: `${process.env.REACT_APP_API_KEY_GOOGLE_MAPS}`,
 // })(MapContainer);
 
 // https://rapidapi.com/fyhao/api/text-sentiment-analysis-method/
@@ -133,7 +133,7 @@ function App() {
       headers: {
         "content-type": "application/json",
         "x-rapidapi-host": "text-analysis12.p.rapidapi.com",
-        "x-rapidapi-key": `${process.env.REACT_APP_API_KEY}`,
+        "x-rapidapi-key": `${process.env.REACT_APP_API_KEY_RAPID_API}`,
       },
       data: {
         language: "english",
