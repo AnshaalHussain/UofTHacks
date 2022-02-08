@@ -4,6 +4,12 @@ Using Google's Speech to Text Api with Text Analysis Api to identify how to impr
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Demo
+
+<video width="320" height="240" controls>
+  <source src="my-app/ConflictResolutionDemo.mov" type="video/mp4">
+</video>
+
 # Info
 
 The initial purpose was to take the sentiment tracker in order to tell how hostile your words might be when we are angry/emotional/stressed/tired, and might not think how our words can affect others. Which as we know, when we are heated that we can say things we often don't mean, and later regret, which can cause damage to those we care about. I want to combine psychology with technolog, and create a mental health improvement app with a concept that I haven't seen commonly talked about in the world of web development: Emotional Regulation.

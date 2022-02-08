@@ -122,7 +122,7 @@ function App() {
   ];
   const { transcript, resetTranscript } = useSpeechRecognition({ commands });
   const [isListening, setIsListening] = useState(false);
-  const [analysis, setAnalysis] = useState("listening");
+  const [analysis, setAnalysis] = useState();
   const microphoneRef = useRef(null);
 
 
@@ -204,7 +204,13 @@ function App() {
           </button>
         </div>
       )}
-      {analysis}
+      <div className="analysis">
+        {analysis && 
+         `Feeling ${analysis} today, are we?`
+        }
+     
+      </div>
+      
     </div>
   );
 }
